@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="alert alert-success text-center text-dark" role="alert">
+    <strong>Update Students.</strong>
+</div>
+<form action="" method="post">
+{% csrf_token %}
+{{form.as_p}}
+<input type="submit" value="Update" class="btn btn-success">
+<a href="{% url 'addandshow' %}" class="btn btn-primary">Back To Home</a>
+</form>
+</div>
+{% endblock body %}
