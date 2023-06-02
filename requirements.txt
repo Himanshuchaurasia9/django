@@ -6,7 +6,6 @@ charset-normalizer==3.0.1
 colorama==0.4.6
 colorthief==0.2.1
 comtypes==1.1.14
-contourpy==1.0.7
 cycler==0.11.0
 distlib==0.3.6
 Django==4.2.1
